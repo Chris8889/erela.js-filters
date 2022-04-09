@@ -1,5 +1,5 @@
 const erela = require(`erela.js`);
-module.exports.FilterManager = class FilterManager extends erela.Plugin {
+module.exports = class FilterManager extends erela.Plugin {
     load() {
         erela.Structure.extend(`Player`, (Player) => class extends Player {
             constructor() {
