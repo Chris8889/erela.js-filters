@@ -1084,7 +1084,7 @@ module.exports = class FilterManager extends erela.Plugin {
             };
 
             set tremolo(state) {
-                this.tremolo = state;
+                this._tremolo = state;
 
                 this._bass = false;
                 this._bassboost = false;
